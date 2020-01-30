@@ -1,6 +1,7 @@
 import { select, axisBottom, axisRight, scaleLinear, scaleBand } from "d3";
 import React, { useRef, useEffect, useState } from "react";
 import "../stylesheets/style.scss"
+import TimeViz from './TimeViz';
 
 /* The useEffect Hook is for running side effects outside of React,
        for instance inserting elements into the DOM using D3 */
@@ -97,6 +98,9 @@ function VertColViz() {
             >
                 Add data
         </button>
+            <div>
+                <TimeViz />
+            </div>
         </React.Fragment>
     );
 }
