@@ -1,10 +1,13 @@
 footer {
-  position: absolute;
-  left: 30px;
+  display: flex;
+  justify-content: center;
 }
 
+//   position: absolute;
+//   left: 50px;
+
 body {
-  background-color: #121212;
+  background-color: #16161b;
 }
 
 h1,
@@ -30,17 +33,20 @@ div a {
 
 #UserDashboard {
   color: white;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-weight: thin;
+  letter-spacing: 3px;
 }
 
 #configDashboard {
   width: 80%;
-  color: black;
-  font-family: 'Audiowide', cursive;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: thin;
 }
 
 div#configHeader {
-  background-color: lightgray;
+  background-color: #202125;
   border-radius: 5px;
 }
 
@@ -70,7 +76,7 @@ svg {
   overflow: visible;
   margin-bottom: 2rem;
   display: block;
-  box-shadow: inset 1px 2000px rgba(208, 208, 208, 0.75);
+  box-shadow: inset 1px 2000px #202024;
 }
 
 text {
@@ -82,7 +88,7 @@ span.querySpan.input {
 }
 
 #root {
-  font-family: 'Audiowide', cursive;
+  font-family: 'Roboto', sans-serif;
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
@@ -123,7 +129,7 @@ button {
 
 button:hover {
   color: rgb(114, 120, 171);
-  box-shadow: 0 5px 15px rgb(114, 120, 171);
+  box-shadow: 0 0 10px #36b074, 0 0 40px #36b074, 0 0 80px #36b074;
 }
 
 div .tooltip {
@@ -257,6 +263,10 @@ link {
 
 div#freqExamples {
   color: gray;
+}
+
+h1 {
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 700px) {

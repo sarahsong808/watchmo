@@ -21,7 +21,7 @@ const ConfigSaveModal = props => {
 
   return (
     <div>
-      <Button color="primary" onClick={toggle}>
+      <Button color="warning" onClick={toggle}>
         {buttonLabel}
       </Button>
       <Modal
@@ -36,7 +36,7 @@ const ConfigSaveModal = props => {
           want to do this?
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={submitToggle}>
+          <Button color="success" onClick={submitToggle}>
             Save
           </Button>{' '}
           <Button color="secondary" onClick={toggle}>

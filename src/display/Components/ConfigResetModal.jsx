@@ -34,7 +34,7 @@ const ConfigResetModal = props => {
           you want to do this?
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={resetReload}>
+          <Button color="success" onClick={resetReload}>
             Reset Form
           </Button>{' '}
           <Button color="secondary" onClick={toggle}>

@@ -39,7 +39,7 @@ const CategoryData = props => {
       <div id="btnAddQuery">
         <Button
           className="addQueryBtn"
-          color="primary"
+          color="success"
           size="md"
           id={`${props.catData.name}-addQuery`}
           onClick={props.addQuery}

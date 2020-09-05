@@ -50,7 +50,7 @@ function ProjectSelect() {
     <div id="projectSelect">
       <div className="projDrop">
         <ButtonDropdown isOpen={dropdownProjOpen} toggle={toggleCat}>
-          <DropdownToggle caret color="primary">
+          <DropdownToggle caret color="success">
             Projects:
           </DropdownToggle>
           <DropdownMenu>{projcategoriesInDropDown}</DropdownMenu>

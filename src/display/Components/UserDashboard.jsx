@@ -85,7 +85,7 @@ function UserDashboard(props) {
       <h1> User Dashboard </h1>
       <div className="categoriesDrop">
         <ButtonDropdown isOpen={dropdownCatOpen} toggle={toggleCat}>
-          <DropdownToggle caret color="primary">
+          <DropdownToggle caret color="success">
             Categories:
           </DropdownToggle>
           <DropdownMenu>{categoriesInDropDown}</DropdownMenu>

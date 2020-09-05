@@ -29,7 +29,7 @@ const UserConfig = () => {
       </button>
       <div className="configCategoriesDrop">
         <ButtonDropdown isOpen={dropdownCatOpen} toggle={toggleCat}>
-          <DropdownToggle caret color="primary">
+          <DropdownToggle caret color="success">
             Categories:
           </DropdownToggle>
           <DropdownMenu>{categories}</DropdownMenu>
