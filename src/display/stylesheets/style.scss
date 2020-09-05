@@ -1,6 +1,10 @@
 footer {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  left: 30px;
+}
+
+body {
+  background-color: #121212;
 }
 
 h1,
